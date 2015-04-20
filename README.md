@@ -1,3 +1,13 @@
+### To get started
+npm install
+gulp
+
+
+### IMPORTANT
+ALL VIEWS HTML FILES GET COMPILED INTO A TEMPLATE JS FILE. INDEX.HTML DOESN'T 
+
+
+
 ### Stripped down gulp-starter
 Smaller, stripped back version of gulp-starter intended to be used on smaller projects/for prototyping.
 The immediate compilation of sass files and auto browser reloading is excellent!
@@ -6,8 +16,6 @@ The immediate compilation of sass files and auto browser reloading is excellent!
 
 ### ToDo
 
-Combine js files
-bem the nav
 
 
 

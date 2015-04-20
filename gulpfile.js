@@ -88,7 +88,8 @@ gulp.task('uglifyJs', ['browserify'], function() {
 gulp.task('watch', ['watchify','browserSync'], function() {
     gulp.watch(config.sass.src,   ['sass']);
     gulp.watch(config.images.src, ['images']);
-    gulp.watch(config.markup.src, ['compileTemplates', 'markup']);
+    gulp.watch(config.markup.src, ['markup']);
+    gulp.watch(config.templates.src, ['compileTemplates']);
     // Watchify will watch and recompile our JS, so no need to gulp.watch it
 });
 

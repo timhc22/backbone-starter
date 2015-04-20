@@ -23,7 +23,8 @@ module.exports = {
     },
     //TODO CURRENTLY TEMPLATES ARE IN JS AND HTML FORMAT (WHEN USING JST)
     markup: {
-        src: SRC + "/views/**",
+        //src: SRC + "/views/**",
+        src: SRC + "/views/index.html",
         dest: DEST
     },
     //compiled js file with html templates
